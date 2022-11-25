@@ -111,3 +111,10 @@ section.quote-section > p {
   margin-top: 40px;
   margin-left: 50%;
 }
+
+.action-button button:hover {
+  background-color: #fff;
+  color: #3882F6;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
