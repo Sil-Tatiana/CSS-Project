@@ -46,7 +46,7 @@ section.info-section > h1 {
   background-color: #E5E7EB;
   height: 35vh;
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,4 +66,48 @@ section.quote-section > p {
   align-self: end;
   color: #1F2937;
   margin-bottom: 50px;
+}
+
+.action-section {
+  height: 13vh;
+  background-color: #3882F6;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.action-content h3 {
+  color: #fff;
+  padding-left: 20%;
+  margin-bottom: 0;
+}
+
+.action-content p {
+  color: #fff;
+  padding-left: 20%;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.action-button {
+  width: 100%;
+}
+
+.action-button button {
+  color: #fff;
+  padding: 4px 24px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  background-color: transparent;
+  margin-top: 40px;
+  margin-left: 50%;
 }
