@@ -1,0 +1,72 @@
+@import "style.css";
+@import "footer.css";
+@import "navbar.css";
+
+body {
+  background-color: #E5E7EB;
+}
+
+h1 {
+  margin-left: 10%;
+  padding: 16px;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-section > img {
+  width: 25%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.name-label, .email-label, .text-label {
+  font-size: 22px;
+  color: #1F2937;
+  padding-bottom: 6px;
+
+}
+
+.name-input, .email-input, .submit {
+  height: 42px;
+  margin-bottom: 22px;
+}
+
+.text-input, .name-input, .email-input {
+  border-radius: 8px;
+  border: 2px solid #959292;
+  padding-left: 10px;
+}
+
+.name-input, .email-input, .text-input, .submit {
+  width: 120%;
+}
+
+.submit {
+  margin-top: 24px;
+  margin-left: 8px;
+  background-color: #3882F6;
+  border: 2px solid #3882F6;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.submit:hover {
+  color: #3882F6;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}

@@ -4,6 +4,9 @@ footer {
   display: flex;
   justify-content: center;
   gap: 25px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 footer h6, footer h6 a {
