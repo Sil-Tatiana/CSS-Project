@@ -1,0 +1,88 @@
+@import "style.css";
+
+.nav-header {
+  background-color: #1F2937;
+  height: 10vh;
+}
+
+nav {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  text-decoration: none;
+  padding-left: 10%;
+  margin-top: 24px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  padding-right: 10%;
+  margin-top: 24px;
+}
+
+li a {
+  font-size: 18px;
+  color:#E5E7EB;
+  text-decoration: none;
+}
+
+li a:hover {
+  border-bottom: 2px solid #3882F6;
+  cursor: pointer;
+
+}
+
+body {
+  background-color: #E5E7EB;
+}
+
+.hike-main h1 {
+  text-align: center;
+  padding: 16px;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+/* .hike-one {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.hike-one img {
+  padding-left: 10%;
+}
+
+.hike-one p {
+  align-self: center;
+  padding-right: 10%;
+  color: #1F2937;
+  line-height: 22px;
+} */
+
+/* .hike-two {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.hike-two img {
+  width: 50%;
+}
+
+.hike-two p {
+  align-self: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #1F2937;
+  line-height: 22px;
+  text-align: justify;
+} */
