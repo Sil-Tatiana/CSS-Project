@@ -1,3 +1,101 @@
 @import "style.css";
 @import "footer.css";
 @import "navbar.css";
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/hiking-skills.avif");
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.hero-text h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: 36px;
+  letter-spacing: 5px;
+}
+
+.skill-section {
+  background-color: #e5e7eb;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+section.skill-section > h3 {
+  font-size: 22px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 75%;
+  color: #1f2937;
+  line-height: 32px;
+}
+
+section.skill-section > p {
+  align-self: end;
+  color: #1f2937;
+  margin-bottom: 50px;
+}
+
+.skills-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.skill-card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+
+.skill-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.skill-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  min-height: 100px;
+}
+
+.skill-content > p {
+  font-size: 14px;
+  color: #1f2937;
+  text-align: justify;
+}
+
+.skill-content > h4 {
+  margin: 0;
+  text-align: justify;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
