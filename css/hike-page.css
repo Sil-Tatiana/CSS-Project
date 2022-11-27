@@ -3,14 +3,14 @@
 @import "navbar.css";
 
 body {
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
 }
 
 .hike-title {
   text-align: center;
   padding: 16px;
   font-size: 36px;
-  color: #1F2937;
+  color: #1f2937;
   font-weight: 900;
 }
 
@@ -22,11 +22,11 @@ body {
 }
 
 .hikes {
- display: grid;
- height: 100%;
- grid-template-columns: repeat(3, 1fr);
- grid-template-rows: repeat(2, 1fr);
- padding: 20px;
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 20px;
 }
 
 .hikes > img {
@@ -36,7 +36,7 @@ body {
 
 .hikes > p {
   align-self: center;
-  color: #1F2937;
+  color: #1f2937;
   line-height: 24px;
   padding: 25px;
 }
