@@ -10,16 +10,9 @@ nav {
 }
 
 .logo {
-  font-size: 24px;
-  color: #f9faf8;
-  text-decoration: none;
+  width: 36px;
   padding-left: 10%;
   margin-top: 24px;
-}
-
-.logo > img {
-  width: 30%;
-  height: auto;
   padding-right: 10%;
 }
 

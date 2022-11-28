@@ -1,4 +1,4 @@
-section.info-section > h1 {
+section.info-section > h2 {
   text-align: center;
   padding: 16px;
   font-size: 36px;
@@ -19,9 +19,10 @@ section.info-section > h1 {
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   width: 200px;
+  height: 300px;
 }
 
-.image-header img {
+figure > img {
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -29,17 +30,15 @@ section.info-section > h1 {
 
 .image-content {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px;
   min-height: 100px;
 }
 
-.image-content > p {
+figcaption.image-content > p {
   font-size: 14px;
   color: #1f2937;
   text-align: center;
   padding: 5px;
+  align-self: center;
 }
 
 .quote-section {
@@ -52,16 +51,15 @@ section.info-section > h1 {
   align-items: center;
 }
 
-section.quote-section > h1 {
+.quote-section blockquote > h3 {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
-  text-align: justify;
-  width: 50%;
+  width: 75%;
   color: #1f2937;
 }
 
-section.quote-section > p {
+section.quote-section > cite {
   align-self: end;
   color: #1f2937;
   margin-bottom: 50px;
